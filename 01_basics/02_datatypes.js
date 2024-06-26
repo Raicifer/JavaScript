@@ -4,14 +4,14 @@ let age=21 //number
 let isloggedin=true //boolean
 let bigno = 123456785557688686
 
-console.log(typeof name)
-console.log(typeof age)
-console.log(typeof isloggedin)
-console.log(typeof bigno)
+// console.log(typeof name)
+// console.log(typeof age)
+// console.log(typeof isloggedin)
+// console.log(typeof bigno)
 
 // STACK(PRIMITIVE) AND HEAP MEMORY(NON PRIMITIVE) IN JS
 
-let myinstaid="show_vikk"
+let myinstaid = "show_vikk"
 let gameid=myinstaid
 myinstaid="raicifer"
 console.log(myinstaid)
@@ -24,5 +24,5 @@ let UserOne={
 
 let UserTwo=UserOne
 UserTwo.email="shouvik@gmail.com"
-console.log(UserOne.email)
-console.log(UserTwo.email)
+ console.log(UserOne.email)
+ console.log(UserTwo.email)
